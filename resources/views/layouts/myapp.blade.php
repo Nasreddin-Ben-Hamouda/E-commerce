@@ -86,6 +86,7 @@
 						<li><a href="#"><i class="fa fa-phone"></i> +216 54 808 062</a></li>
 						<li><a href="#"><i class="fa fa-envelope-o"></i> nasreddinbenhamouda@gmail.com</a></li>
 						<li><a href="#"><i class="fa fa-map-marker"></i> El Alia Bizerte </a></li>
+						<!--<li><span id="test"></span></li>-->
 					</ul>
 					
 					<ul class="header-links pull-right">
@@ -134,7 +135,7 @@
 						<div class="col-md-3">
 							<div class="header-logo">
 								<a href="#" class="logo">
-									<img src="./img/logo.png" alt="">
+									<img src="{{asset('./img/logo.png')}}" alt="">
 								</a>
 							</div>
 						</div>
@@ -419,6 +420,8 @@
 		<!-- /FOOTER -->
 
 		<!-- jQuery Plugins -->
+		
+		
 		<script src="{{asset('js/jquery.min.js')}}"></script>
 		<script src="{{asset('js/bootstrap.min.js')}}"></script>
 		<script src="{{asset('js/slick.min.js')}}"></script>
@@ -426,6 +429,13 @@
 		<script src="{{asset('js/jquery.zoom.min.js')}}"></script>
 		<script src="{{asset('js/main.js')}}"></script>
 		<script src="{{asset('js/search.js')}}"></script>
+		<!--<script >
+			$(function() {
+
+        $('#test').html('Hello world. Ce texte est affiché par jQuery.');
+
+           })
+		</script>-->
 		
 	
 
