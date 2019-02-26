@@ -1,4 +1,3 @@
-
 /node_modules
 /public/hot
 /public/storage
@@ -6,10 +5,9 @@
 /vendor
 /.idea
 /.vagrant
-.phpintel
+/.phpintel
 Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
 .env
-
